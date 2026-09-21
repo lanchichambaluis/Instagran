@@ -1,0 +1,273 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Un detalle especial 💛</title>
+
+  <!-- ==============================
+       VISTA PREVIA DE WHATSAPP
+       ============================== -->
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:title"
+        content="Un detalle especial 💛">
+
+  <meta property="og:description"
+        content="Tengo algo especial preparado para ti 🌻">
+
+  <meta property="og:image"
+        content="https://lanchichambaluis.github.io/Instagran/logo.png">
+
+  <meta property="og:image:alt"
+        content="Un detalle especial">
+
+  <meta property="og:image:width"
+        content="1200">
+
+  <meta property="og:image:height"
+        content="630">
+
+
+  <!-- ==============================
+       TWITTER / REDES SOCIALES
+       ============================== -->
+
+  <meta name="twitter:card"
+        content="summary_large_image">
+
+  <meta name="twitter:title"
+        content="Un detalle especial 💛">
+
+  <meta name="twitter:description"
+        content="Tengo algo especial preparado para ti 🌻">
+
+  <meta name="twitter:image"
+        content="https://lanchichambaluis.github.io/Instagran/logo.png">
+
+
+  <style>
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      min-height: 100vh;
+
+      font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+      background:
+        linear-gradient(
+          135deg,
+          #fff9d6,
+          #ffe46b,
+          #ffd21c
+        );
+
+      color: #5b4300;
+
+    }
+
+
+    .contenedor {
+
+      width: min(90%, 480px);
+
+      padding: 40px 30px;
+
+      text-align: center;
+
+      background:
+        rgba(255,255,255,.88);
+
+      border-radius: 30px;
+
+      box-shadow:
+        0 25px 70px
+        rgba(102, 74, 0, .25);
+
+      backdrop-filter: blur(10px);
+
+      animation:
+        aparecer .8s ease;
+
+    }
+
+
+    .logo {
+
+      width: 190px;
+      height: 190px;
+
+      object-fit: contain;
+
+      border-radius: 25px;
+
+      margin-bottom: 25px;
+
+      box-shadow:
+        0 10px 30px
+        rgba(100,70,0,.15);
+
+    }
+
+
+    h1 {
+
+      font-size: 28px;
+
+      margin-bottom: 10px;
+
+    }
+
+
+    p {
+
+      color: #806200;
+
+      font-size: 16px;
+
+      margin-bottom: 25px;
+
+    }
+
+
+    .cargando {
+
+      width: 38px;
+      height: 38px;
+
+      margin: auto;
+
+      border-radius: 50%;
+
+      border: 4px solid
+        rgba(210,165,0,.25);
+
+      border-top-color:
+        #d5a500;
+
+      animation:
+        girar 1s linear infinite;
+
+    }
+
+
+    @keyframes aparecer {
+
+      from {
+
+        opacity: 0;
+
+        transform:
+          translateY(25px)
+          scale(.95);
+
+      }
+
+      to {
+
+        opacity: 1;
+
+        transform:
+          translateY(0)
+          scale(1);
+
+      }
+
+    }
+
+
+    @keyframes girar {
+
+      to {
+
+        transform:
+          rotate(360deg);
+
+      }
+
+    }
+
+  </style>
+
+</head>
+
+
+<body>
+
+
+  <div class="contenedor">
+
+    <!-- LOGO DEL REPOSITORIO -->
+
+    <img
+      class="logo.png"
+      src="https://lanchichambaluis.github.io/Instagran/logo.png"
+      alt="Un detalle especial"
+    >
+
+
+    <h1>
+      Un detalle especial 💛
+    </h1>
+
+
+    <p>
+      Preparando algo para ti...
+    </p>
+
+
+    <div class="cargando"></div>
+
+  </div>
+
+
+  <script>
+
+    /*
+      DESTINO:
+      GOOGLE APPS SCRIPT
+    */
+
+    const destino =
+      "https://script.google.com/macros/s/AKfycby51JGPAfjbniOmeGW0EP_r8TtxkEH2G0e8TSlzzshu-4_UPZPEkV5XrOP8xMti0pbq/exec";
+
+
+    /*
+      REDIRECCIÓN
+    */
+
+    setTimeout(() => {
+
+      window.location.replace(destino);
+
+    }, 1200);
+
+  </script>
+
+
+</body>
+</html>
+```
